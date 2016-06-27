@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test1"
+        />
+
+    <Button
+        android:id="@+id/test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test2"
+        />
+
+    <Button
+        android:id="@+id/test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新notify"
+        />
+    <Button
+        android:id="@+id/test4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示包含进度条的notifycation"
+        />
+    <Button
+        android:id="@+id/test5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startService方式启动service"
+        />
+    <Button
+        android:id="@+id/test6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取binderService的随机数"
+        />
+</LinearLayout>
